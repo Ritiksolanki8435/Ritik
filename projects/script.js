@@ -20,7 +20,7 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Projects | Portfolio Saurav Mukherjee";
+        document.title = "Ritik Solanki";
         $("#favicon").attr("href","/assests/images/favicon.png");
     }
     else {
